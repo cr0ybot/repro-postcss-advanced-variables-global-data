@@ -1,4 +1,4 @@
-Minimal reproduction for (postcss-advanced-variables issue #69)[https://github.com/csstools/postcss-advanced-variables/issues/69].
+Minimal reproduction for [postcss-advanced-variables issue #69](https://github.com/csstools/postcss-advanced-variables/issues/69).
 
 ```
 ERROR in ./entry.css
