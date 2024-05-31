@@ -1,0 +1,8 @@
+$context: foo;
+
+@mixin context($name: foo) {
+
+	@if $name == $context {
+		@content;
+	}
+}

@@ -1,0 +1,15 @@
+$context: bar;
+
+/* This should not output anything. */
+@include context(foo) {
+	.foo {
+		color: red;
+	}
+}
+
+/* This should output the contained CSS. */
+@include context(bar) {
+	.bar {
+		color: blue;
+	}
+}
