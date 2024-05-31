@@ -1,5 +1,9 @@
 $context: bar;
 
+.test {
+	color: green;
+}
+
 /* This should not output anything. */
 @include context(foo) {
 	.foo {
