@@ -6,5 +6,5 @@ Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
 
 SyntaxError
 
-(4:10) from "postcss-advanced-variables" plugin: /repro-postcss-advanced-variables-global-data/entry.css Could not resolve the mixin for "context"
+(8:10) from "postcss-advanced-variables" plugin: /repro-postcss-advanced-variables-global-data/input.css Could not resolve the mixin for "context"
 ```
